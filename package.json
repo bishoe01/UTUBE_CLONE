@@ -1,0 +1,19 @@
+{
+  "name": "utube_clone",
+  "version": "1.0.0",
+  "description": "way to watch videos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bishoe01/UTUBE_CLONE.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bishoe01/UTUBE_CLONE/issues"
+  },
+  "homepage": "https://github.com/bishoe01/UTUBE_CLONE#readme"
+}
