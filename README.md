@@ -6,13 +6,12 @@ NodeJs,Express,Mongo and ES6
 /login -> Login
 /search -> Search
 
-/users/edit -> Edit user
-/users/delete -> Delete user
+/users/:id -> See User
+/users/logout -> Logout
+/users/edit -> Edit My Profile
+/users/delete -> Delete My Profile
 
-/videos/watch -> Watch video
-/videos/edit -> Edit video
-/videos/delete -> Delete video
-/videos/comment -> Comment on a video
-/videos/comments/delete -> Delete A comment of a video
-
-/comment-on-video
+/videos/:id -> See Video
+/videos/:id/edit -> Edit video
+/videos/:id/delete -> Delete video
+/videos/upload -> Upload video
