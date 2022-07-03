@@ -1,7 +1,8 @@
-doctype html 
-html(lang = 'ko')
-    head 
-        title Wetube 
-    body 
-        h1 Welcome to Wetube 
-    include partials/footer.pug
+extends base.pug
+include mixins/video
+block content
+    h2 Welcome to the UTUBE CLONE PROJECT HOME PAGE
+    each potato in videos         
+        +video(potato) 
+    else        
+        li Sorry nothing Found
