@@ -21,8 +21,5 @@ app.use("/videos", videoRouter);
 app.use("/users", userRouter);
 
 
-
-const handleListening = () => console.log(`server Listening on port ${PORT}🚀`);
-
-app.listen(PORT, handleListening);
+export default app;
 
